@@ -103,19 +103,19 @@ Others	|Others 	| Browse and attach any other details about the candidate from y
 ###Clients
 Field Name|	API Format|	Description|	Data type|	Maximum Limit
 :---:|:---:|:---:|:---:|:---:
-Client Name *	Client Name *	Specify the client name. This field is mandatory.	Text box	Alphanumeric(100)
-Account Manager	Account Manager	Select the name of the user to whom the account is assigned.	Look up	-
-Website	Website	Specify the URL of the company's website.	URL	Alphanumeric(30)
-Source	Source	Select the source of the client i.e. from where the client is generated.	Pick list	-
-Parent Client	Parent Client	Select the parent company name from the Change pop-up dialog.	Lookup	-
-Created By	Created By	Specify the user who added the client details.	Owner Lookup	-
-Modified By	Modified By	Specify the user who modified the client details.	Owner Lookup	-
-Industry	Industry	Select the type of industry from the drop-down list.	Pick list	-
-Client Contract	Client Contract	Browse and attach the client contract from your system.	Upload Text	-
-Client Logo	Client Logo	Browse and attach the client logo from your system.	Upload Text	Number
-Others	Others	Browse and attach any other details about the client.	Upload Text	Alphanumeric(30)
-Contact Number	Contact Number	Specify phone number of the client.	Text box	Alphanumeric(30)
-Fax	Fax	Specify the fax number of the client.	Text box	Alphanumeric(30)
+Client Name *|	Client Name *	|Specify the client name. This field is mandatory.|	Text box|	Alphanumeric(100)
+Account Manager	|Account Manager	|Select the name of the user to whom the account is assigned.|	Look up	|-
+Website|	Website	|Specify the URL of the company's website.|	URL|	Alphanumeric(30)
+Source|	Source|	Select the source of the client i.e. from where the client is generated.|	Pick list|	-
+Parent Client	|Parent Client	|Select the parent company name from the Change pop-up dialog.|	Lookup|	-
+Created By|	Created By|	Specify the user who added the client details.	|Owner Lookup|	-
+Modified By|	Modified By|	Specify the user who modified the client details.|	Owner Lookup|	-
+Industry|	Industry|	Select the type of industry from the drop-down list.|	Pick list|	-
+Client Contract	|Client Contract|	Browse and attach the client contract from your system.	|Upload Text|	-
+Client Logo|	Client Logo|	Browse and attach the client logo from your system.|	Upload Text	|Number
+Others	|Others|	Browse and attach any other details about the client.|	Upload Text|	Alphanumeric(30)
+Contact Number	|Contact Number|	Specify phone number of the client.|	Text box|	Alphanumeric(30)
+Fax	|Fax|	Specify the fax number of the client.	|Text box|	Alphanumeric(30)
 Billing Address
 
     Street
@@ -124,7 +124,7 @@ Billing Address
     Code
     Country
 
-	Billing Address
+	|Billing Address
 
     Street
     City
@@ -132,7 +132,7 @@ Billing Address
     Code
     Country
 
-	Specify the billing address of the client to send the quotes, invoices, and other agreements.	
+	|Specify the billing address of the client to send the quotes, invoices, and other agreements.|	
 
     Street - Text box
     City - Text box
@@ -140,7 +140,7 @@ Billing Address
     Code - Text box
     Country- Text box
 
-	
+|
 
     Alphanumeric(250)
     Alphanumeric(30)
@@ -148,7 +148,7 @@ Billing Address
     Alphanumeric(30)
     Alphanumeric(30)
 
-Shipping Address
+|Shipping Address
 
     Street
     City
@@ -156,7 +156,7 @@ Shipping Address
     Code
     Country
 
-	Shipping Address
+	|Shipping Address
 
     Street
     City
@@ -164,7 +164,7 @@ Shipping Address
     Code
     Country
 
-	Specify the shipping address of the client to deliver the shipment.	
+	|Specify the shipping address of the client to deliver the shipment.|	
 
     Street - Text box
     City - Text box
@@ -172,7 +172,7 @@ Shipping Address
     Code - Text box
     Country - Text box
 
-	
+|	
 
     Alphanumeric(250)
     Alphanumeric(30)
@@ -180,28 +180,28 @@ Shipping Address
     Alphanumeric(30)
     Alphanumeric(30)
 
-About	About	Specify details about the client.	Text area (long text)	32000 characters
+About|	About|	Specify details about the client.|	Text area (long text)|	32000 characters
  
 ###Contacts
 Field Name|	API Format|	Description|	Data type|	Maximum Limit
 :---:|:---:|:---:|:---:|:---:
-Contact Owner	Contact Owner	Select the Zoho Recruit user to whom the contact is assigned.	Lookup	-
-Salutation	Salutation	Select the Salutation of the contact, such as Mr., Ms, Mrs., or others.	Pick list	 
-First Name	First Name	Specify the first name of the contact.	Text box	Alphanumeric(40)
-Last Name*	Last Name*	Specify the last name of the contact. This field is mandatory.	Text box	Alphanumeric(40)
-Client Name	Client Name	Select the client related to the contact.	Lookup	-
-Job Title	Job Title	Select the job position of the contact	Text box	Alphanumeric(100)
-Created By	Created By	Specify the user who added the contact details.	Owner Lookup	-
-Source	Source	Select the source from which the contact is created.	Pick list	-
-Modified By	Modified By	Specify the user who modified the contact details.	Owner Lookup	-
-Department	Department	Specify the department of the contact.	Text box	Alphanumeric(30)
-Twitter	Twitter	Specify the twitter account details of the contact.	Text box 	Alphanumeric(50)
-Email Opt Out	Email Opt Out	Select the checkbox to remove contacts from your mailing list so that they will not receive any emails from your Zoho Recruit account	Check box	-
-Skype Id	Skype Id	Specify the Skype ID of the contact. Currently, Skype ID can be in the range of 6 to 32 characters.	Text box	Alphanumeric(50)
-Work Phone	Work Phone	Specify the office phone number of the contact.	Text box	Alphanumeric(50)
-Mobile	Mobile	Specify the mobile number of the contact.	Text box	Alphanumeric(50)
-Fax	Fax	Specify the Fax number of the contact.	Text box	Alphanumeric(50)
-Email	Email	Specify the primary email address of the contact.	Email	Alphanumeric(100)
+Contact Owner	|Contact Owner|	Select the Zoho Recruit user to whom the contact is assigned.|	Lookup|	-
+Salutation|	Salutation|	Select the Salutation of the contact, such as Mr., Ms, Mrs., or others.	|Pick list	 
+First Name|	First Name|	Specify the first name of the contact.|	Text box|	Alphanumeric(40)
+Last Name*|	Last Name*|	Specify the last name of the contact. This field is mandatory.|	Text box|Alphanumeric(40)
+Client Name|	Client Name|	Select the client related to the contact.|	Lookup|	-
+Job Title|	Job Title|	Select the job position of the contact|	Text box|	Alphanumeric(100)
+Created By|	Created By|	Specify the user who added the contact details.	|Owner Lookup|	-
+Source	|Source|	Select the source from which the contact is created.|	Pick list|	-
+Modified By|	Modified By|	Specify the user who modified the contact details.|	Owner Lookup|	-
+Department|	Department|	Specify the department of the contact.|	Text box|	Alphanumeric(30)
+Twitter	|Twitter|	Specify the twitter account details of the contact.|	Text box |	Alphanumeric(50)
+Email Opt Out|	Email Opt Out|	Select the checkbox to remove contacts from your mailing list|	Check box|	-
+Skype Id|	Skype Id|	Specify the Skype ID of the contact. Currently, Skype ID can be in the range of 6 to 32 characters.	|Text box	|Alphanumeric(50)
+Work Phone	|Work Phone	|Specify the office phone number of the contact.	|Text box|	Alphanumeric(50)
+Mobile	|Mobile	|Specify the mobile number of the contact.|	Text box	|Alphanumeric(50)
+Fax	|Fax|	Specify the Fax number of the contact.|	Text box|	Alphanumeric(50)
+Email	|Email	|Specify the primary email address of the contact.	|Email	|Alphanumeric(100)
 Mailing Address
 
     Street
@@ -210,7 +210,7 @@ Mailing Address
     Zip
     Country
 
-	Mailing Address
+	|Mailing Address
 
     Street
     City
@@ -218,7 +218,7 @@ Mailing Address
     Zip
     Country
 
-	Specify the primary address of the contact.	
+	|Specify the primary address of the contact.	|
 
     Street - Text box
     City - Text box
@@ -226,14 +226,14 @@ Mailing Address
     Code - Text box
     Country- Text box
 
-	
+|	
 
     Alphanumeric(250)
     Alphanumeric(30)
     Alphanumeric(30)
     Alphanumeric(30)
     Alphanumeric(30)
-
+    
 Other Address
 
     Street
@@ -242,7 +242,7 @@ Other Address
     Zip
     Country
 
-	Other Address
+	|Other Address
 
     Street
     City
@@ -250,7 +250,7 @@ Other Address
     Zip
     Country
 
-	Specify the other address of the contact (if any).	
+	|Specify the other address of the contact (if any).|	
 
     Street - Text box
     City - Text box
@@ -258,7 +258,7 @@ Other Address
     Code - Text box
     Country - Text box
 
-	
+|	
 
     Alphanumeric(250)
     Alphanumeric(30)
@@ -266,8 +266,8 @@ Other Address
     Alphanumeric(30)
     Alphanumeric(30)
 
-Is Primary Contact	Is Primary Contact	Select the checkbox to assign the contact as the primary contact for that organization.	Check box	-
-Others	Others	Browse and attach any other details about the contact.	Upload Text	-
+Is Primary Contact|	Is Primary Contact|	Select the checkbox to assign the contact as the primary contact for that organization.	|Check box|	-
+Others	|Others	|Browse and attach any other details about the contact.|	Upload Text|	-
 
 
 ###Job Openings
