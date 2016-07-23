@@ -4,18 +4,18 @@
 
  
 
-You can use the API to integrate the following types of applications:
+###You can use the API to integrate the following types of applications:
 
     Zoho Services
     Third-party applications
 
-Target Audience
+###Target Audience
 
     Developers
     Recruit Project Managers
     System Integrators
 
-Prerequisite
+###Prerequisite
 
     You must have a valid email address to access the Zoho Recruit service.
     You must have permission to access API service (System-level security settings).
