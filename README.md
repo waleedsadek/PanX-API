@@ -117,23 +117,18 @@ Others	|Others|	Browse and attach any other details about the client.|	Upload Te
 Contact Number	|Contact Number|	Specify phone number of the client.|	Text box|	Alphanumeric(30)
 Fax	|Fax|	Specify the fax number of the client.	|Text box|	Alphanumeric(30)
 Billing Address
-
     Street
     City
     State
     Code
     Country
-
-	|Billing Address
-
+|Billing Addres
     Street
     City
     State
     Code
     Country
-
-	|Specify the billing address of the client to send the quotes, invoices, and other agreements.|	
-
+|Specify the billing address of the client to send the quotes, invoices, and other agreements.|
     Street - Text box
     City - Text box
     State - Text box
@@ -141,31 +136,21 @@ Billing Address
     Country- Text box
 
 |
-
     Alphanumeric(250)
     Alphanumeric(30)
     Alphanumeric(30)
     Alphanumeric(30)
-    Alphanumeric(30)
-
-|Shipping Address
-
+    Alphanumeric(30)|Shipping Address
     Street
     City
     State
     Code
-    Country
-
-	|Shipping Address
-
+    Country|Shipping Address
     Street
     City
     State
     Code
-    Country
-
-	|Specify the shipping address of the client to deliver the shipment.|	
-
+    Country|Specify the shipping address of the client to deliver the shipment.|	
     Street - Text box
     City - Text box
     State - Text box
@@ -173,7 +158,6 @@ Billing Address
     Country - Text box
 
 |	
-
     Alphanumeric(250)
     Alphanumeric(30)
     Alphanumeric(30)
