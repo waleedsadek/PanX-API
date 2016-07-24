@@ -170,7 +170,7 @@ Job Type	|Job Type	|Select the type of job from the drop-down list.	|Pick list|	
 State	|State|	Specify the state related to the job opening. |	Text box	|Alphanumeric(120)
 City	|City	|Specify the city related to the job opening.	|Text box	|Alphanumeric(120)
 Work Experience	|Work Experience	|Specify the work experience required for the job opening.	|Pick List|	-
-Country	Country	Specify the country related to the job opening.	Text box	Alphanumeric(120)
+Country|	Country|	Specify the country related to the job opening.|	Text box	|Alphanumeric(120)
 Modified By	|Modified By	|Specify the user who modified the job opening details.	|Owner Lookup|	-
 Salary	Salary	|Specify the salary| related to the job opening.	 	 
 Job Description	|Job Description	|Specify the job description.	|Text area (long text) |	32000 characters
