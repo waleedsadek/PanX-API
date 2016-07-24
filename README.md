@@ -187,7 +187,7 @@ Contact Name|	Job Opening/Interview/Client	|Select any other record related to t
 Status	|Status|	Specify the status of the task|	Pick List	|-
 Priority	|Priority	|Select the due date.	|Date|	-
 Send Notification Email|Send Notification Email|Select the check box to send notification email to the task owner|Check box	 
-Remind At	Remind At	Select the check box to set reminder for the task	Check box	 
+Remind At|	Remind At	|Select the check box to set reminder for the task	|Check box	 
 Recurring Activity	|Recurring Activity	|Select the check box to mark it as a recurring activity|	Check box|	-
 Description	|Description	|Specify the details about the task	|Text area (long text)|	32000 characters
 Created By|	Created By	|Specify the user who added the task details.|	Owner Lookup|	-
