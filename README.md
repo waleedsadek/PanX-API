@@ -116,54 +116,8 @@ Client Logo|	Client Logo|	Browse and attach the client logo from your system.|	U
 Others	|Others|	Browse and attach any other details about the client.|	Upload Text|	Alphanumeric(30)
 Contact Number	|Contact Number|	Specify phone number of the client.|	Text box|	Alphanumeric(30)
 Fax	|Fax|	Specify the fax number of the client.	|Text box|	Alphanumeric(30)
-Billing Address
-    Street
-    City
-    State
-    Code
-    Country
-|Billing Addres
-    Street
-    City
-    State
-    Code
-    Country
-|Specify the billing address of the client to send the quotes, invoices, and other agreements.|
-    Street - Text box
-    City - Text box
-    State - Text box
-    Code - Text box
-    Country- Text box
-
-|
-    Alphanumeric(250)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)|Shipping Address
-    Street
-    City
-    State
-    Code
-    Country|Shipping Address
-    Street
-    City
-    State
-    Code
-    Country|Specify the shipping address of the client to deliver the shipment.|	
-    Street - Text box
-    City - Text box
-    State - Text box
-    Code - Text box
-    Country - Text box
-
-|	
-    Alphanumeric(250)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-
+Billing Address: Street, City, State, Code, Country|Billing Address: Street, City, State, Code, Country|Specify the billing address of the client to send the quotes, invoices, and other agreements.|Street - Text box, City - Text box, State - Text box, Code - Text box, Country- Text box|Alphanumeric(250), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30)
+Shipping Address: Street, City, State, Code, Country|Shipping Address: Street, City, State, Code, Country|Specify the shipping address of the client to deliver the shipment.|Street - Text box, City - Text box, State - Text box, Code - Text box, Country - Text box|Alphanumeric(250), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30)
 About|	About|	Specify details about the client.|	Text area (long text)|	32000 characters
  
 ###Contacts
