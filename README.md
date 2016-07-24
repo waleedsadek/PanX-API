@@ -140,71 +140,9 @@ Work Phone	|Work Phone	|Specify the office phone number of the contact.	|Text bo
 Mobile	|Mobile	|Specify the mobile number of the contact.|	Text box	|Alphanumeric(50)
 Fax	|Fax|	Specify the Fax number of the contact.|	Text box|	Alphanumeric(50)
 Email	|Email	|Specify the primary email address of the contact.	|Email	|Alphanumeric(100)
-Mailing Address
-
-    Street
-    City
-    State
-    Zip
-    Country
-
-	|Mailing Address
-
-    Street
-    City
-    State
-    Zip
-    Country
-
-	|Specify the primary address of the contact.	|
-
-    Street - Text box
-    City - Text box
-    State - Text box
-    Code - Text box
-    Country- Text box
-
-|	
-
-    Alphanumeric(250)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    
-Other Address
-
-    Street
-    City
-    State
-    Zip
-    Country
-
-	|Other Address
-
-    Street
-    City
-    State
-    Zip
-    Country
-
-	|Specify the other address of the contact (if any).|	
-
-    Street - Text box
-    City - Text box
-    State - Text box
-    Code - Text box
-    Country - Text box
-
-|	
-
-    Alphanumeric(250)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-    Alphanumeric(30)
-
-Is Primary Contact|	Is Primary Contact|	Select the checkbox to assign the contact as the primary contact for that organization.	|Check box|	-
+Mailing Address: Street, City, State, Zip, Country|Mailing Address: Street, City, State, Zip, Country|Specify the primary address of the contact.	|Street - Text box, City - Text box, State - Text box, Code - Text box, Country- Text box|Alphanumeric(250), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30)
+Other Address: Street, City, State, Zip, Country|Other Address: , Street, City, State, Zip, Country|Specify the other address of the contact (if any).|Street - Text box, City - Text box, State - Text box, Code - Text box, Country - Text box|Alphanumeric(250), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30), Alphanumeric(30)
+Is Primary Contact|Is Primary Contact|Select the checkbox to assign the contact as the primary contact for that organization.	|Check box|	-
 Others	|Others	|Browse and attach any other details about the contact.|	Upload Text|	-
 
 
