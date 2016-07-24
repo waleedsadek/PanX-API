@@ -172,7 +172,7 @@ City	|City	|Specify the city related to the job opening.	|Text box	|Alphanumeric
 Work Experience	|Work Experience	|Specify the work experience required for the job opening.	|Pick List|	-
 Country|	Country|	Specify the country related to the job opening.|	Text box	|Alphanumeric(120)
 Modified By	|Modified By	|Specify the user who modified the job opening details.	|Owner Lookup|	-
-Salary	Salary	|Specify the salary| related to the job opening.	 	 
+Salary	|Salary	|Specify the salary| related to the job opening.	 	 
 Job Description	|Job Description	|Specify the job description.	|Text area (long text) |	32000 characters
 Job Summary|	Job Summary|	Browse and upload the job summary.	|Upload Text	| -
 
