@@ -4,23 +4,21 @@
 ##To generate Ticket ID (ticket): 
 
  Give the username and password of "Recruiter-Admin" role
-
- 
-<form method="POST" action="https://accounts.zoho.com/login" target="_self">
-<input type="hidden" name="LOGIN_ID" value="[ZOHO ID or Email ID]">
-<input type="hidden" name="PASSWORD" value="[Password for ZOHO ID]">
-<input type="hidden" name="FROM_AGENT" value="true">
-<input type="hidden" name="servicename" value="zohopeople">
-<input type="submit" value="Get Ticket ID" class="divbutton" name="submit">
-</form>
+    <form method="POST" action="https://accounts.zoho.com/login" target="_self">
+    <input type="hidden" name="LOGIN_ID" value="[ZOHO ID or Email ID]">
+    <input type="hidden" name="PASSWORD" value="[Password for ZOHO ID]">
+    <input type="hidden" name="FROM_AGENT" value="true">
+    <input type="hidden" name="servicename" value="zohopeople">
+    <input type="submit" value="Get Ticket ID" class="divbutton" name="submit">
+    </form>
 
 ##RESPONSE:
-# #Thu Apr 01 20:29:06 PDT 2010
-GETUSERNAME=null
-WARNING=null
-PASS_EXPIRY=-1
-TICKET=5767ef44382712202e432d57da576b34
-RESULT=TRUE
+    #Thu Apr 01 20:29:06 PDT 2010
+    GETUSERNAME=null
+    WARNING=null
+    PASS_EXPIRY=-1
+    TICKET=5767ef44382712202e432d57da576b34
+    RESULT=TRUE
 
  
 Get the TICKET from the RESPONSE above.
@@ -31,7 +29,7 @@ Login to http://zapi.zoho.com to get your API Key, which you need to pass with e
 ##To access the below available API's:
 Request URL to getRecords:
 
-**XML:**http://recruit.zoho.com/ats/private/xml/__~~Module~~__/getRecords?apikey=API Key&ticket=Ticket
+**XML:**http://recruit.zoho.com/ats/private/xml/~~__Module__~~/getRecords?apikey=~~API Key~~&ticket=~~Ticket~~
 **JSON:**http://recruit.zoho.com/ats/private/json/__~~Module~~__/getRecords?apikey=API Key&ticket=Ticket
 
 Replace Module with any one of this *JobOpenings*, *Candidates*, *Clients*, *ClientContacts*, *Users* 
