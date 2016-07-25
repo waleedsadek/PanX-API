@@ -28,14 +28,14 @@ Login to http://zapi.zoho.com to get your API Key, which you need to pass with e
 ##To access the below available API's:
 Request URL to getRecords:
 
-**XML:**http://recruit.zoho.com/ats/private/xml/~~__Module__~~/getRecords?apikey=~~API~~Key~~&ticket=~~Ticket~~
-**JSON:**http://recruit.zoho.com/ats/private/json/__~~Module~~__/getRecords?apikey=API Key&ticket=Ticket
+**XML:**http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
+**JSON:**http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
 
 Replace Module with any one of this *JobOpenings*, *Candidates*, *Clients*, *ClientContacts*, *Users* 
 
-Request Parameters:
+*Request Parameters:*
 Parameter|Data Type|Description
-:---:|:---:|:---:
+---:|:---:|:---
 ticket*|String|Encrypted alphanumeric string to authenticate your Zoho credentials. You can use the same ticket for 7 days. After 7th day, you must generate a new ticket.
 apikey*|String|API key to access your Zoho CRM account.
 fromIndex|Integer|Default value - 1.
@@ -50,35 +50,35 @@ if you want to sort in descending order, then you have to pass sortOrderString=d
 
 **Regular Expressions**
 You can specify the following expressions in API request:
-is OR =
+  is OR =
 
-isn't OR <>
+  isn't OR <>
 
-contains(*srcString*)
+  contains(*srcString*)
 
-starts with(srcString*)
+  starts with(srcString*)
 
-ends with(*srcString)
+  ends with(*srcString)
 
-doesn't contain
+  doesn't contain
 
-< OR is before
+  < OR is before
 
-> OR is after
+  > OR is after
 
-<=
+  <=
 
-=>
+  =>
 
 ###Request URL to getRecordById:
-**XML:**http://recruit.zoho.com/ats/private/xml/~~**Module**~~/getRecordById?apikey=API Key&ticket=Ticket
-**JSON:**http://recruit.zoho.com/ats/private/json/~~**Module**~~/getRecordById?apikey=API Key&ticket=Ticket
+**XML:**http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
+**JSON:**http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**, **Candidates**, **Clients**, **ClientContacts**, **Users**
 
-Request Parameters:
+*Request Parameters:*
 Parameter|Data Type|Description
-:---:|:---:|:---:
+---:|:---:|:---
 ticket*|String|-
 apikey*|String|-
 id|String|Specify unique ID of the record.
