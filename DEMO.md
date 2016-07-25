@@ -34,9 +34,10 @@ Request URL to getRecords:
 Replace Module with any one of this *JobOpenings*, *Candidates*, *Clients*, *ClientContacts*, *Users* 
 
 *Request Parameters:*
-Parameter|Data Type|Description
----:|:---:|:---
-ticket*|String|Encrypted alphanumeric string to authenticate your Zoho credentials. You can use the same ticket for 7 days. After 7th day, you must generate a new ticket.
+
+Parameter | Data Type | Description
+:---:|:---:|:---:
+ticket* | String | Encrypted alphanumeric string to authenticate your Zoho credentials. You can use the same ticket for 7 days. After 7th day, you must generate a new ticket.
 apikey*|String|API key to access your Zoho CRM account.
 fromIndex|Integer|Default value - 1.
 toIndex|Integer|Default value - 20 Maximum value - 200.
