@@ -1,5 +1,4 @@
-##Permission:
-"Recruiter-Admin" role only will able to access all Zoho APIs.
+#DEMO 
 
 ##To generate Ticket ID (ticket): 
 
@@ -12,7 +11,7 @@
     <input type="submit" value="Get Ticket ID" class="divbutton" name="submit">
     </form>
 
-##RESPONSE:
+###RESPONSE:
     #Thu Apr 01 20:29:06 PDT 2010
     GETUSERNAME=null
     WARNING=null
@@ -21,7 +20,7 @@
     RESULT=TRUE
 
  
-Get the TICKET from the RESPONSE above.
+__Get the TICKET from the RESPONSE above.__
 
 ##To generate API Key (apikey):
 Login to http://zapi.zoho.com to get your API Key, which you need to pass with every API request
@@ -29,7 +28,7 @@ Login to http://zapi.zoho.com to get your API Key, which you need to pass with e
 ##To access the below available API's:
 Request URL to getRecords:
 
-**XML:**http://recruit.zoho.com/ats/private/xml/~~__Module__~~/getRecords?apikey=~~API Key~~&ticket=~~Ticket~~
+**XML:**http://recruit.zoho.com/ats/private/xml/~~__Module__~~/getRecords?apikey=~~API~~Key~~&ticket=~~Ticket~~
 **JSON:**http://recruit.zoho.com/ats/private/json/__~~Module~~__/getRecords?apikey=API Key&ticket=Ticket
 
 Replace Module with any one of this *JobOpenings*, *Candidates*, *Clients*, *ClientContacts*, *Users* 
