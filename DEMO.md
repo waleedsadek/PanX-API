@@ -1,8 +1,21 @@
 #DEMO 
 
-##To generate Ticket ID (ticket): 
+##Generating Authentication Token:
+To generate the Authentication Token, you can use either of the following modes.
 
+####API Mode
+
+    https://accounts.zoho.com/apiauthtoken/nb/create?SCOPE=ZohoRecruit/recruitapi&EMAIL_ID=[Username/EmailID]&PASSWORD=[Password]
+You will get the required token as a response.
+
+####Browser Mode
+
+    https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoRecruit/recruitapi
+If you want to create the token now, click on the above URL.
+
+##To generate Ticket ID (ticket): 
  Give the username and password of "Recruiter-Admin" role
+
     <form method="POST" action="https://accounts.zoho.com/login" target="_self">
     <input type="hidden" name="LOGIN_ID" value="[ZOHO ID or Email ID]">
     <input type="hidden" name="PASSWORD" value="[Password for ZOHO ID]">
@@ -12,6 +25,7 @@
     </form>
 
 ###RESPONSE:
+
     #Thu Apr 01 20:29:06 PDT 2010
     GETUSERNAME=null
     WARNING=null
@@ -23,17 +37,24 @@
 __Get the TICKET from the RESPONSE above.__
 
 ##To generate API Key (apikey):
+
 Login to http://zapi.zoho.com to get your API Key, which you need to pass with every API request
 
 ##To access the below available API's:
-Request URL to getRecords:
 
-**XML:**http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
-**JSON:**http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
+###Request URL to getRecords:
+
+**XML:**
+
+    http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
+
+**JSON:**
+
+    http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**,* *Candidates**, **Clients**, **ClientContacts**, **Users** 
 
-######Request Parameters:
+**Request Parameters:**
 
 Parameter | Data Type | Description
 :---:|:---:|:---:
@@ -45,11 +66,13 @@ sortColumnString|String|If you use the sortColumnString parameter, by default da
 sortOrderString|String
 searchCondition|String|(Created By=username)
 
-** * - Mandatory parameter**
+**Asterisk = Mandatory parameter**
+
 Default value - asc
 if you want to sort in descending order, then you have to pass sortOrderString=desc.
 
 **Regular Expressions**
+
 You can specify the following expressions in API request:
 
     is OR =
@@ -73,8 +96,14 @@ You can specify the following expressions in API request:
     =>
 
 ###Request URL to getRecordById:
-**XML:**http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
-**JSON:**http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket ~~**Ticket**~~
+
+**XML:**
+
+    http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
+
+**JSON:**
+
+    http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**, **Candidates**, **Clients**, **ClientContacts**, **Users**
 
@@ -86,16 +115,21 @@ ticket*|String|-
 apikey*|String|-
 id|String|Specify unique ID of the record.
 
-*** - Mandatory parameter**
+**Asterisk = Mandatory parameter** 
 
 ###Request URL to addRecords:
 
-**XML:**http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
-**JSON:**http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
+**XML:**
+
+    http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
+    
+**JSON:**
+
+    http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
 
 Replace Module with any one of this **JobOpenings**, **Candidates**, **Clients**, **ClientContacts**, **Users** 
 
-Request Parameters:
+**Request Parameters:**
 
 Parameter|Data Type|Description
 :---:|:---:|:---:
@@ -104,9 +138,9 @@ apikey*|String|Specify API key of your Zoho CRM account.
 xmlData*|XML|This is an XML string and the format should be same as of getRecords in XML format of fetched records.
 duplicateCheck|Integer|Set value as "1" to check the duplicate records and throw an error response or "2" to check the duplicate records, if exists, update the same.
 
-** * - Mandatory parameter**
+**Asterisk = Mandatory parameter** 
 
-Duplicate Check Fields:
+**Duplicate Check Fields:**
 
 Module Name|Duplicate Check Field
 :---:|:---:
@@ -119,7 +153,9 @@ ClientContacts|Email ID
 
 Insert records into Zoho Recruit from third-party applications
 
-**URL Format:** http://recruit.zoho.com/crm/private/xml/JobOpenings/addRecords?apikey=APIKEY&ticket=TICKET&xmlData=XMLDATA
+**URL Format:** 
+
+    http://recruit.zoho.com/crm/private/xml/JobOpenings/addRecords?apikey=APIKEY&ticket=TICKET&xmlData=XMLDATA
 
 ###XMLDATA JobOpening example:
 
@@ -157,7 +193,7 @@ Insert records into Zoho Recruit from third-party applications
     </row>
     </Candidates>
 
-###The file attachment should be base64encoded and send to us. Along with the name of the file in a separate xml node with fieldlabel_filename as below example:
+######The file attachment should be base64encoded along with the name of the file in a separate xml node with fieldlabel_filename:
 
     <FL val="Attach resume"> TVlTUUwgMTkyLjE2OC4xNS40NCAxOTIuMTY4LjE1Ljk1IDE5Mi4xNjguMTUuNzMKRklMRSAxOTIuMTY4LjE1LjQ0IDE5Mi4xNjguMTUuOTUgMTkyLjE2OC4xNS43MwpCQUNLVVAgMTkyLjE2OC4xNS40NCAxOTIuMTY4LjE1Ljk1IDE5Mi4xNjguMTUuNzMK</FL>
     <FL val="Attach resume_filename">components.txt</FL>
