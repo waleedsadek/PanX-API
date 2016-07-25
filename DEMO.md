@@ -13,6 +13,7 @@ You will get the required token as a response.
     https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoRecruit/recruitapi
 If you want to create the token now, click on the above URL.
 
+
 ##To generate Ticket ID (ticket): 
  Give the username and password of "Recruiter-Admin" role
 
@@ -33,12 +34,13 @@ If you want to create the token now, click on the above URL.
     TICKET=5767ef44382712202e432d57da576b34
     RESULT=TRUE
 
- 
 __Get the TICKET from the RESPONSE above.__
+
 
 ##To generate API Key (apikey):
 
 Login to http://zapi.zoho.com to get your API Key, which you need to pass with every API request
+
 
 ##To access the below available API's:
 
@@ -54,6 +56,7 @@ http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~*
 
 Replace Module with any one of this **JobOpenings**,* *Candidates**, **Clients**, **ClientContacts**, **Users** 
 
+
 **Request Parameters:**
 
 Parameter | Data Type | Description
@@ -67,9 +70,9 @@ sortOrderString|String
 searchCondition|String|(Created By=username)
 
 **Asterisk = Mandatory parameter**
-
 Default value - asc
 if you want to sort in descending order, then you have to pass sortOrderString=desc.
+
 
 **Regular Expressions**
 
@@ -149,13 +152,14 @@ Candidates|Email ID
 Clients|Clients
 ClientContacts|Email ID
 
-###Examples:
+##Examples:
 
 Insert records into Zoho Recruit from third-party applications
 
 **URL Format:** 
 
     http://recruit.zoho.com/crm/private/xml/JobOpenings/addRecords?apikey=APIKEY&ticket=TICKET&xmlData=XMLDATA
+
 
 ###XMLDATA JobOpening example:
 
@@ -173,6 +177,7 @@ Insert records into Zoho Recruit from third-party applications
     <FL val="Attach doc_filename">components.txt</FL>
     </row>
     </JobOpenings>
+
 
 ###XMLDATA Candidates example:
 
@@ -197,6 +202,7 @@ Insert records into Zoho Recruit from third-party applications
 
     <FL val="Attach resume"> TVlTUUwgMTkyLjE2OC4xNS40NCAxOTIuMTY4LjE1Ljk1IDE5Mi4xNjguMTUuNzMKRklMRSAxOTIuMTY4LjE1LjQ0IDE5Mi4xNjguMTUuOTUgMTkyLjE2OC4xNS43MwpCQUNLVVAgMTkyLjE2OC4xNS40NCAxOTIuMTY4LjE1Ljk1IDE5Mi4xNjguMTUuNzMK</FL>
     <FL val="Attach resume_filename">components.txt</FL>
+
 
 ###Response Format:
 
