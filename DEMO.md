@@ -46,11 +46,11 @@ Login to http://zapi.zoho.com to get your API Key, which you need to pass with e
 
 **XML:**
 
-    http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
+http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
 
 **JSON:**
 
-    http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
+http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**,* *Candidates**, **Clients**, **ClientContacts**, **Users** 
 
@@ -99,11 +99,11 @@ You can specify the following expressions in API request:
 
 **XML:**
 
-    http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
+http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
 
 **JSON:**
 
-    http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /getRecordById?apikey= ~~**API Key**~~ &ticket ~~**Ticket**~~
+http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**, **Candidates**, **Clients**, **ClientContacts**, **Users**
 
@@ -121,11 +121,11 @@ id|String|Specify unique ID of the record.
 
 **XML:**
 
-    http://recruit.zoho.com/ats/private/xml/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
-    
+http://recruit.zoho.com/ats/private/xml/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~ 
+
 **JSON:**
 
-    http://recruit.zoho.com/ats/private/json/ ~~**Module**~~ /addRecords?apikey=API Key&ticket=Ticket
+http://recruit.zoho.com/ats/private/json/ ~~__Module__~~ /getRecords?apikey= ~~**API Key**~~ &ticket= ~~**Ticket**~~
 
 Replace Module with any one of this **JobOpenings**, **Candidates**, **Clients**, **ClientContacts**, **Users** 
 
